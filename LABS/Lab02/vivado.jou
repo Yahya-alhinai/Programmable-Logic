@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 12 01:31:56 2018
+# Process ID: 15248
+# Current directory: C:/Users/yahya/Documents/Vivado/Lab02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6112 C:\Users\yahya\Documents\Vivado\Lab02\Lab02.xpr
+# Log file: C:/Users/yahya/Documents/Vivado/Lab02/vivado.log
+# Journal file: C:/Users/yahya/Documents/Vivado/Lab02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yahya/Documents/Vivado/Lab02/Lab02.xpr

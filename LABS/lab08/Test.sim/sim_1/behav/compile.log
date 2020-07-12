@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yahya/Desktop/cordic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORDIC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yahya/Desktop/cordic_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORDIC_TESTBENCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yahya/Desktop/Test/Test.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

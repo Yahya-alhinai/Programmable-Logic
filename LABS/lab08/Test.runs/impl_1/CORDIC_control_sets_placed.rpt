@@ -1,0 +1,73 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Jul 27 23:09:01 2018
+| Host         : DESKTOP-MN1E3A1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CORDIC_control_sets_placed.rpt
+| Design       : CORDIC
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |   103 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |            9 |
+| Yes          | No                    | No                     |             766 |          283 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              70 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------+------------------+------------------+----------------+
+|  Clock Signal  |   Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+-------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG | z[0][15]_i_1_n_0  |                  |                4 |             16 |
+|  clk_IBUF_BUFG |                   |                  |                6 |             21 |
+|  clk_IBUF_BUFG |                   | cos0             |                9 |             32 |
+|  clk_IBUF_BUFG | y[0][16]_i_1_n_0  | btnC_IBUF        |               10 |             34 |
+|  clk_IBUF_BUFG | i                 | btnC_IBUF        |                9 |             36 |
+|  clk_IBUF_BUFG | y[10][16]_i_1_n_0 |                  |               14 |             50 |
+|  clk_IBUF_BUFG | y[11][16]_i_1_n_0 |                  |               21 |             50 |
+|  clk_IBUF_BUFG | y[12][16]_i_1_n_0 |                  |               16 |             50 |
+|  clk_IBUF_BUFG | y[13][16]_i_1_n_0 |                  |               17 |             50 |
+|  clk_IBUF_BUFG | y[14][16]_i_1_n_0 |                  |               19 |             50 |
+|  clk_IBUF_BUFG | y[1][16]_i_1_n_0  |                  |               16 |             50 |
+|  clk_IBUF_BUFG | y[2][16]_i_1_n_0  |                  |               14 |             50 |
+|  clk_IBUF_BUFG | y[3][16]_i_1_n_0  |                  |               19 |             50 |
+|  clk_IBUF_BUFG | y[4][16]_i_1_n_0  |                  |               18 |             50 |
+|  clk_IBUF_BUFG | y[5][16]_i_1_n_0  |                  |               20 |             50 |
+|  clk_IBUF_BUFG | y[6][16]_i_1_n_0  |                  |               20 |             50 |
+|  clk_IBUF_BUFG | y[7][16]_i_1_n_0  |                  |               20 |             50 |
+|  clk_IBUF_BUFG | y[8][16]_i_1_n_0  |                  |               19 |             50 |
+|  clk_IBUF_BUFG | y[9][16]_i_1_n_0  |                  |               33 |             50 |
+|  clk_IBUF_BUFG | z[15][15]_i_1_n_0 |                  |               13 |             50 |
++----------------+-------------------+------------------+------------------+----------------+
+
+

@@ -1,0 +1,83 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Jul 19 14:14:27 2018
+| Host         : DESKTOP-MN1E3A1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab4_top_control_sets_placed.rpt
+| Design       : lab4_top
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    30 |
+| Unused register locations in slices containing registers |    13 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              25 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              40 |           13 |
+| Yes          | No                    | No                     |              32 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             258 |          107 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------+-----------------------+------------------+----------------+
+|  Clock Signal  |      Enable Signal     |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+------------------------+-----------------------+------------------+----------------+
+|  cout_BUFG     |                        |                       |                1 |              1 |
+|  clk_IBUF_BUFG | keep[4]_i_2_n_0        | keep[4]_i_1_n_0       |                2 |              5 |
+|  cout_BUFG     | number[4]_i_2_n_0      | number[4]_i_1_n_0     |                2 |              5 |
+|  clk_IBUF_BUFG | display[16][7]_i_1_n_0 |                       |                2 |              8 |
+|  clk_IBUF_BUFG | display[18][7]_i_1_n_0 |                       |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[0]0        | display[0][7]_i_1_n_0 |                2 |              8 |
+|  clk_IBUF_BUFG | display_reg[10]0       | display[0][7]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG | display_reg[11]0       | display[0][7]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG | display_reg[12]0       | display[0][7]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG | display_reg[13]0       | display[0][7]_i_1_n_0 |                5 |              8 |
+|  clk_IBUF_BUFG | display_reg[14]0       | display[0][7]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[15]0       | display[0][7]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG | display_reg[17]0       |                       |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[19]0       |                       |                2 |              8 |
+|  clk_IBUF_BUFG | display_reg[1]0        | display[0][7]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG | display_reg[2]0        | display[0][7]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[3]0        | display[0][7]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[4]0        | display[0][7]_i_1_n_0 |                5 |              8 |
+|  clk_IBUF_BUFG | display_reg[5]0        | display[0][7]_i_1_n_0 |                6 |              8 |
+|  clk_IBUF_BUFG | display_reg[6]0        | display[0][7]_i_1_n_0 |                5 |              8 |
+|  clk_IBUF_BUFG | display_reg[7]0        | display[0][7]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG | display_reg[8]0        | display[0][7]_i_1_n_0 |                6 |              8 |
+|  clk_IBUF_BUFG | display_reg[9]0        | display[0][7]_i_1_n_0 |                5 |              8 |
+|  cout_BUFG     |                        | number[4]_i_1_n_0     |                5 |              8 |
+|  clk_IBUF_BUFG |                        |                       |                8 |             24 |
+|  cout_BUFG     | Seg2[7]_i_2_n_0        | p_0_in                |               13 |             24 |
+|  clk_IBUF_BUFG |                        | CDIV/count00          |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV/count00           | CDIV/count1           |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV/count1            | CDIV/count2           |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV/count2            | CDIV/count3           |                8 |             32 |
++----------------+------------------------+-----------------------+------------------+----------------+
+
+

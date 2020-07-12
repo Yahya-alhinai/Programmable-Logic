@@ -1,0 +1,9 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+a = xxxxxxxx, b = xxxxxxxx, cin = x
+s = xxxxxxxx, cout = x
+a = 00000000, b = 00000000, cin = 0
+s = 00000000, cout = 0
+a = 11111111, b = 00000001, cin = 0
+s = 00000000, cout = 1
+End Simulation
